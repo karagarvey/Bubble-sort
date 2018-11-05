@@ -3,11 +3,11 @@ describe('Bubble Sort', function(){
     spyOn(window,'swap').and.callThrough();
   })
   it('handles an empty array', function(){
-    expect( bubbleSort( [] ).toEqual( [] ));
+    expect( bubbleSort( [] )).toEqual( [] );
   })
 
-  it('handles an array with 1 element',function(){
-    expect (bubbleSort( [1] ).toEqual( [1] ));
+  it('handles an array with 1 element', function(){
+    expect (bubbleSort( [1] )).toEqual( [1] );
   })
 
   it('handles an array for multiple items', function(){
