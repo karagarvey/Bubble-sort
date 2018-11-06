@@ -7,6 +7,7 @@ function bubbleSort(array){
     }
   }
   if (swapped){
+    // console.log('before swap', array)
     return bubbleSort(array)
   } else {
     return array
