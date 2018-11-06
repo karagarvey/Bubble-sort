@@ -1,7 +1,7 @@
 describe('Split Array function', function() {
   it('is able to split an array into two halves', function() {
     let myArr = [3, 4, 5, 7, 2]
-    expect(split(myArr)).toEqual([[3, 4],[5, 7, 2]]);
+    expect(split(myArr)).toEqual([[3, 4], [5, 7, 2]]);
     expect(split([3, 4])).toEqual([[3], [4]]);
   });
 });
